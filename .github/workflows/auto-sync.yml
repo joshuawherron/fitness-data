@@ -24,7 +24,7 @@ jobs:
         env:
           ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
           INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
-        run: python sync.py --output latest.json --history history.json
+        run: python sync.py --output latest.json
 
       - name: Commit and push changes
         run: |
