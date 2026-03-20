@@ -65,12 +65,12 @@
       "total_training_hours": 2.14,
       "total_training_formatted": "2h8m",
       "total_activities": 10,
-      "total_tss": 110
+      "total_tss": 124
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-20T11:47:44.564838",
+    "last_updated": "2026-03-20T14:33:05.140690",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -105,10 +105,10 @@
     },
     {
       "metric": "race_week_tsb",
-      "value": 0.8,
+      "value": 2.2,
       "severity": "warning",
       "threshold": "TSB target 5-15",
-      "context": "Projected race-day TSB 0.8 is below target range 5-15. Consider additional rest to reach target.",
+      "context": "Projected race-day TSB 2.2 is below target range 5-15. Consider additional rest to reach target.",
       "persistence_days": null,
       "tier": 1
     }
@@ -125,9 +125,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 49,
-        "baseline_7d": 75.2,
-        "delta_bpm": -26.2
+        "value": 52,
+        "baseline_7d": 75.7,
+        "delta_bpm": -23.7
       },
       "sleep": {
         "status": "amber",
@@ -136,15 +136,15 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.85
+        "value": 0.93
       },
       "ri": {
         "status": "green",
-        "value": 1.54
+        "value": 1.46
       },
       "tsb": {
         "status": "green",
-        "value": -9.9
+        "value": -8.2
       }
     },
     "signal_summary": {
@@ -176,7 +176,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-17",
-    "age_days": 2,
+    "age_days": 3,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -201,17 +201,17 @@
       "WeightTraining": {
         "duration_decimal_hours": 1.01,
         "count": 2,
-        "tss": 20,
+        "tss": 34,
         "distance_km": 0.0
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 85.39,
-      "atl": 95.31,
-      "tsb": -9.92,
-      "ramp_rate": 3.16,
+      "ctl": 85.02,
+      "atl": 93.18,
+      "tsb": -8.16,
+      "ramp_rate": 2.78,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -257,7 +257,7 @@
     },
     "current_metrics": {
       "weight_kg": 80.2,
-      "resting_hr": 49,
+      "resting_hr": 52,
       "hrv": 85.06311,
       "sleep_quality": 1,
       "sleep_hours": 6.9,
@@ -279,7 +279,7 @@
       "respiration": 16.054688,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6716,
+      "steps": 6822,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -291,27 +291,27 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.54,
+    "recovery_index": 1.46,
     "hrv_baseline_7d": 85.0,
-    "rhr_baseline_7d": 75.2,
+    "rhr_baseline_7d": 75.7,
     "hrv_baseline_28d": 85.0,
-    "rhr_baseline_28d": 54.9,
+    "rhr_baseline_28d": 55.0,
     "latest_hrv": 85.06311,
-    "latest_rhr": 49,
-    "acwr": 0.85,
+    "latest_rhr": 52,
+    "acwr": 0.93,
     "acwr_interpretation": "optimal",
-    "monotony": 0.47,
+    "monotony": 0.54,
     "monotony_interpretation": "normal",
     "primary_sport": "run",
     "primary_sport_monotony": null,
     "primary_sport_tss_7d": 90.0,
-    "effective_monotony": 0.47,
+    "effective_monotony": 0.54,
     "multi_sport_detected": true,
-    "strain": 52.0,
-    "stress_tolerance": 1.1,
-    "load_recovery_ratio": 0.7,
-    "tss_7d_total": 110.0,
-    "tss_28d_total": 519.0,
+    "strain": 67.0,
+    "stress_tolerance": 1.2,
+    "load_recovery_ratio": 0.8,
+    "tss_7d_total": 124.0,
+    "tss_28d_total": 533.0,
     "zone_distribution_7d": {
       "z1_hours": 0.84,
       "z2_hours": 1.14,
@@ -479,7 +479,7 @@
     "p_max": 1080,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-20T11:47:44.563548",
+    "calculation_timestamp": "2026-03-20T14:33:05.139392",
     "data_quality": {
       "hrv_data_points": 2,
       "rhr_data_points": 6,
@@ -497,11 +497,11 @@
       "id": "i133455916",
       "date": "2026-03-20T15:08:48",
       "type": "WeightTraining",
-      "name": "Strength",
+      "name": "friday",
       "duration_hours": 0.5,
       "distance_km": 0.0,
-      "tss": 3,
-      "intensity_factor": 24.556366,
+      "tss": 17,
+      "intensity_factor": 58.45584,
       "avg_power": null,
       "normalized_power": null,
       "avg_hr": 93,
@@ -523,8 +523,8 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": null,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 878,
@@ -1111,7 +1111,7 @@
     {
       "date": "2026-03-20",
       "weight_kg": null,
-      "resting_hr": 49,
+      "resting_hr": 52,
       "hrv_rmssd": 85.06311,
       "hrv_sdnn": null,
       "sleep_hours": 6.9,
@@ -1137,7 +1137,7 @@
       "respiration": 16.054688,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6716,
+      "steps": 6822,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1931,10 +1931,10 @@
   "weekly_summary": {
     "total_training_hours": 2.14,
     "total_training_formatted": "2h8m",
-    "total_tss": 110,
+    "total_tss": 124,
     "activities_count": 10,
     "avg_hrv": 85.0,
-    "avg_resting_hr": 75.2
+    "avg_resting_hr": 75.7
   },
   "race_calendar": {
     "next_race": {
@@ -2199,18 +2199,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 1,
       "current_day": "D-1",
-      "ctl_baseline": 85.4,
-      "normal_weekly_tss": 597.7,
+      "ctl_baseline": 85.0,
+      "normal_weekly_tss": 595.1,
       "race_week_tss_budget": {
-        "min": 299,
-        "max": 389
+        "min": 298,
+        "max": 387
       },
-      "race_week_tss_spent": 110,
+      "race_week_tss_spent": 124,
       "race_week_tss_remaining": {
-        "min": 189,
-        "max": 279
+        "min": 174,
+        "max": 263
       },
-      "projected_race_day_tsb": 0.8,
+      "projected_race_day_tsb": 2.2,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -2239,7 +2239,7 @@
       "go_no_go": {
         "tsb_status": "flag",
         "notes": [
-          "Projected race-day TSB 0.8 is below target range 5-15. Consider additional rest."
+          "Projected race-day TSB 2.2 is below target range 5-15. Consider additional rest."
         ]
       }
     }
